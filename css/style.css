@@ -65,7 +65,8 @@ section {
   text-align: center;
   font-family: 'RockaboyItalic';
   font-size: 12rem;
-  margin-top: -5rem;
+  margin-top: -4rem;
+  margin-bottom: 5rem;
   color:  var(--palet-2);
 }
 
@@ -590,7 +591,7 @@ a:hover {
 
 .about .content .title {
   font-size: 7.5rem;
-  margin-top: -5rem;
+  margin-top: -3rem;
   text-transform: uppercase;
   font-family: 'PoppinsRegular';
   color:  var(--black);
@@ -634,9 +635,9 @@ a:hover {
 }
 
 .heading .reviews-title {
-  font-family: 'PoppinsRegular';
+  font-family: 'RockaboyItalic';
   font-size: 6rem;
-  color:  var(--palet-3);
+  color:  var(--palet-1);
 }
 
 .reviews .box-container {
@@ -845,9 +846,9 @@ a:hover {
 }
 
 .footer {
-  background: #0e0e0e url(../images/vectores/patron-2.svg);
-  background-size: cover;
-  background-position: center;
+  background: #0e0e0e url(../images/vectores/patron-3.svg) no-repeat;
+  background-size: contain;
+  background-position-x: right;
   padding: 3rem 9% !important;
 }
 
@@ -1355,7 +1356,7 @@ input.whats-input[type=text]:focus {
     width: 12%;
   }
   .heading .sub-menu {
-    margin-top: -8rem;
+    margin-top: -5rem;
   }
 }
 

@@ -24,7 +24,7 @@ window.onscroll = () => {
     document.getElementById('img-logo').src = '../images/logo/logo-dark.svg';
   } else {
     document.querySelector('.header').classList.remove('active');
-    document.getElementById('img-logo').src = '../images/logo/logo-pri.svg';
+    document.getElementById('img-logo').src = '../images/logo/logo-white.svg';
   }
 }
 
@@ -468,7 +468,7 @@ popupWhatsApp = () => {
     let msg = document.getElementById('whats-in').value;
     let relmsg = msg.replace(/ /g, "%20");
     //just change the numbers "1515551234567" for your number. Don't use +001-(555)1234567     
-    window.open('https://wa.me/573165734783?text=' + relmsg, '_blank');
+    window.open('https://wa.me/573112286830?text=' + relmsg, '_blank');
 
   });
   /* Open pop-up in 15 seconds */
@@ -519,7 +519,7 @@ sendOrderBtn.addEventListener("click", () => {
     var total_order = document.getElementById("total_order").innerHTML.toString();
     let domicilio = (Number(total_order)+1500);
 
-   window.open('https://wa.me/573165734783?text='+ relmsg + "%0a"
+   window.open('https://wa.me/573112286830?text='+ relmsg + "%0a"
   + "---------------------------------" + "%0a"
   + "       DATOS DEL PEDIDO          " + "%0a"
   + "---------------------------------" + "%0a"
