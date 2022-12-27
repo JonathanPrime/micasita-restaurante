@@ -760,8 +760,8 @@ a:hover {
 .blogs .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(38rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -771,16 +771,16 @@ a:hover {
 
 .blogs .box-container .box:hover .image img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .blogs .box-container .box:hover .image .icons {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 .blogs .box-container .box .image {
-  height: 50rem;
+  height: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -790,11 +790,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 2rem;
   background: var(--black);
   position: absolute;
@@ -803,28 +803,28 @@ a:hover {
   right: 0;
   z-index: 10;
   -webkit-transform: translateY(10rem);
-          transform: translateY(10rem);
+  transform: translateY(10rem);
 }
 
 .blogs .box-container .box .image .icons a {
   font-size: 1.5rem;
-  color:  var(--white);
+  color: var(--white);
 }
 
 .blogs .box-container .box .image .icons a i {
   padding-right: 5rem;
-  color:  var(--tertiary);
+  color: var(--palet-1);
 }
 
 .blogs .box-container .box .image .icons a:hover {
-  color:  var(--tertiary);
+  color: var(--palet-2);
 }
 
 .blogs .box-container .box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .blogs .box-container .box .content {
@@ -835,7 +835,7 @@ a:hover {
 .blogs .box-container .box .content h3 {
   font-size: 3rem;
   text-transform: uppercase;
-  color:  var(--white);
+  color: var(--white);
 }
 
 .blogs .box-container .box .content p {
@@ -1249,13 +1249,14 @@ input.whats-input[type=text]:focus {
   }
   
   .blogs .box-container .box .image {
-    height: 32rem;
+    height: 100%;
   }
+
   .blogs .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 2rem;
   }
   .header {
